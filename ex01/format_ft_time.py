@@ -16,5 +16,3 @@ current_date = dt.datetime.now().strftime("%b %d %Y")
 
 print(f"Seconds since {epoch_date}: {current_time:,.4f} or {current_time:.2e} in scientific notation")
 print(current_date)
-
-print(dt.datetime.now() == dt.datetime.fromtimestamp(t.time()))

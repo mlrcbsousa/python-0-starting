@@ -18,6 +18,7 @@ def main():
     try:
         assert len(sys.argv) == 3
         assert is_num(sys.argv[2])
+
     except AssertionError:
         print("AssertionError: the arguments are bad")
         return

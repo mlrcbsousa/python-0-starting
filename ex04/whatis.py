@@ -1,5 +1,6 @@
 import sys
 
+
 def is_num(n: int) -> bool:
     try:
         int(n)
@@ -23,4 +24,3 @@ if len(sys.argv) != 1:
             print("I'm Even.")
         else:
             print("I'm Odd.")
-

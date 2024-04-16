@@ -20,7 +20,7 @@ text : str
 Notes
 -----
 Punctuation marks are defined as any character in the following string:
-    !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+    !"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~
     """
 
     string_punctuation = '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'
